@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+body{
+padding: 0;
+margin: 0;
+font: 700 16px/1 'Quicksand', sans-serif;
+color:#fff;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 0;
+	padding-right: 0;
+	max-width: 800px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-main{
+	max-width: 400px;
+	display: block;
+	margin: 0 auto;
+	background-image:  linear-gradient(32deg, #3123aee0 0%, #c96dd7de 100%), url(../img/Vector_Smart_Object.jpg); 
+	position: relative;
+	
+	
+}
+/*.ba-main:before{
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-image: url(../img/Vector_Smart_Object.jpg);
+	opacity: 0.2;
+	content:'';
+	z-index: 0;
+}*/
+.ba-rows{
+	padding-top: 50px;
+	
+}
+.ba-header{
+	padding-top: 50px;
+	padding-left: 70px;
+	margin-bottom: 55px;
+}
+.header__link{
+	color:#e1c2f1;
+	text-decoration: none;
+}
+.second{
+	margin-left: 25px;
+}
+.header__link:hover{
+	color: #fff;
+	border-bottom: 2px solid #e66a64;
+}
+.ba-form{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 35px;
+	padding-left: 70px;
+	margin-right: 70px;
+}
+.ba-form__username{
+	margin-bottom: 10px;
+}
+.ba-form__username-input{
+	margin-bottom: 20px;
+	border: 1px solid #e5eeee;
+	padding: 10px 0;
+}
+.ba-form__password{
+	margin-bottom: 10px;
+}
+.ba-form__password-input{
+	margin-bottom: 20px;
+	border: 1px solid #e5eeee;
+	padding: 10px 0;
+}
+.ba-form__checkbox{
+	margin-bottom: 40px;
+	display: inline-block;
+	font-size: 13px;
+	cursor: pointer;
+	position: relative
+}
+.ba-form__checkbox:before {
+	content: '';
+	width: 16px;
+	height: 16px;
+	background-color: #23ae92;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+ }
+.ba-form__checkbox-input{
+	display: none;
+}
+.ba-form__span{
+	font-size: 13px;
+	color: #fbf6e4;
+	margin-left: 25px;
+}
+.ba-form__button{
+	background: #23ae92;
+	padding: 12px 0;
+	border: 3px solid #23ae92;	
+}
+.ba-form__button:hover{
+	background: #fff;
+	border:3px solid #23ae92;
+	color: #23ae92;
+}
+.ba-footer{
+	padding-bottom: 47px;
+}
+.ba-footer__link{
+	text-decoration: none;
+	font-size: 13px;
+	color: #b9b9cc;
+	margin-left: 70px;
+	border-bottom: 1px solid #96c1da;
+}
+.ba-footer__link-second{
+	text-decoration: none;
+	font-size: 13px;
+	color: #b9b9cc;
+	margin-left: 35px;
+	border-bottom: 1px solid #96c1da;
+}
+.ba-footer__link:hover{
+	color:#fff;
+}
+.ba-footer__link:hover{
+	color:#fff;
+}
